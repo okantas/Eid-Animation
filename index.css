@@ -8,22 +8,30 @@ body {
   height: 100vh;
   background-color: black;
   display: flex;
-  gap: 100px;
+
   justify-content: center;
   align-items: center;
 }
+.images {
+  width: 40%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mosque {
-  width: 300px;
+  width: 14%;
   position: absolute;
-  top: 300px;
-  left: 800px;
+  z-index: 1;
 }
 .crescent {
-  width: 600px;
+  width: 50%;
 }
 h1 {
   color: #ffd700;
   font-size: 80px;
   font-family: monospace;
-  text-shadow: 2px 2px 20px white;
+  text-shadow: 2px 2px 20px rgb(222, 130, 18);
 }
