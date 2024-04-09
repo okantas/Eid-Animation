@@ -10,7 +10,7 @@ t1.from(".crescent", {
     y: -200,
     duration: 1.3,
   })
-  .from([".firstWord", ".secondWord"], {
+  .from(".Word", {
     opacity: 0,
     duration: 1.3,
   });

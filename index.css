@@ -8,14 +8,13 @@ body {
   height: 100vh;
   background-color: black;
   display: flex;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .images {
   width: 40%;
   height: 50%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,11 +26,13 @@ body {
   z-index: 1;
 }
 .crescent {
-  width: 50%;
+  width: 60%;
 }
 h1 {
+  position: ab;
   color: #ffd700;
   font-size: 80px;
   font-family: monospace;
   text-shadow: 2px 2px 20px rgb(222, 130, 18);
+  z-index: 1;
 }
