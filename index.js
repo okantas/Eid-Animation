@@ -12,5 +12,5 @@ t1.from(".crescent", {
   })
   .from(".Word", {
     opacity: 0,
-    duration: 1.3,
+    duration: 1.2,
   });
